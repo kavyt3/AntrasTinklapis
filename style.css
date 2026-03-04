@@ -7,11 +7,19 @@
 body {
     font-family: Verdana, sans-serif;
     line-height: 1.6;
+    background-color:rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .webpage1 {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+
 }
 
 header {
@@ -60,7 +68,7 @@ nav {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -117,11 +125,19 @@ p {
     width: 35px;
     margin-bottom: 15px;
 }
+
+#articles1 {
+    display: flex; 
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
 #articles2 {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 30px;
+    gap: 40px;
+    margin-top: 20px;
 }
 #footericon {
     display: flex;
@@ -134,4 +150,31 @@ p {
 #footericon img {
     height: 30px;
     width: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(151, 146, 146);
+    padding: 30px 20px;
+    color: white;
+}
+
+#section1 { background-color: #ffffff; }
+#section2 { background-color: #ffe9dc; } 
+#section3 { background-color: #ffffff; }
+#section4 { background-color: #ffe9dc; }
+
+#form .button {
+    padding: 0 20px;
+    height: 40px;
+    margin-top: 0;
+}
+
+input[type="email"] {   
+    flex: 1;      
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
 }
